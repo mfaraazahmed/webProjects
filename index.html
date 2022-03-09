@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kittency website</title>
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section starts here -->
+    <header class="header">
+      <a href="#" class="logo">Kittency</a>
+      <nav class="navbar">
+        <a href="#">Pet's Corner</a>
+        <a href="#">Blogs</a>
+        <a href="#">Products</a>
+        <a href="#">Exclusives</a>
+      </nav>
+      <div class="icon">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+      </div>
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          id="search-box"
+          placeholder="search here..."
+        />
+        <label for=" search-box" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends here -->
+
+    <!-- Container section starts here -->
+    <section class="container" id="posts">
+      <div class="posts-container">
+        <div class="post">
+          <img src="cat.png" alt="" class="image" />
+          <div class="date">
+            <div class="i fas fa-clock"></div>
+            <span>22 sept,2020</span>
+          </div>
+          <h3 class="title">Post1</h3>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perferendis harum et quasi expedita aliquam inventore illum nulla
+            earum porro debitis distinctio id, quod dolor sed, aspernatur illo?
+            Reprehenderit, quisquam nam!
+          </p>
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem dignissimos natus ad officia modi maiores et
+            praesentium maxime officiis dolore quos fuga, ipsam reprehenderit
+            sit ab vitae suscipit nulla esse.
+          </p>
+          <div class="links">
+            <a href="" class="user">
+              <i class="fas fa-user"></i>
+              <span>By user</span>
+            </a>
+            <a href="" class="icon">
+              <i class="fas fa-share-square"></i>
+              <span>(29)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="box">
+          <h3 class="title">About me</h3>
+          <div class="about">
+            <img src="/kittency/cat.png" class="img" alt="" />
+            <h3>My Cat Zoey</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quas, odio voluptate eligendi sit accusantium distinctio laborum
+              nobis ut facilis nam ullam commodi provident architecto nemo! Quia
+              esse saepe placeat?
+            </p>
+            <div class="follow">
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-youtube"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">categories</h3>
+          <div class="category">
+            <a href="#">Persian</a>
+            <a href="#">Street cats</a>
+            <a href="#">More about cats</a>
+            <a href="#">Cat meds</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">popular posts</h3>
+          <div class="p-post">
+            <a href="#">
+              <h3>01.blog title goes here</h3>
+              <span><i class="far fa-clock">22 sept, 2021</i></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">popular tags</h3>
+          <div class="tags">
+            <a href="#">cat</a>
+            <a href="#">kitten</a>
+            <a href="#">cat posts</a>
+            <a href="#">dogs</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Chat section starts here-->
+
+      <div class="chatbox">
+        <img src="/kittency/cat.png" alt="Avatar" />
+
+        <div class="userinfo">
+          <div class="username">Username</div>
+          <div class="msg">rescent message</div>
+          </div>
+          <span class="time">11:00</span>
+        </div>
+      </div>
+
+      <!--Chat section ends here-->
+      <!-- Container section ends here -->
+    </section>
+
+    <!-- footer section starts here -->
+
+    <section class="footer">
+      <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+
+      <div class="credit">
+        created by <span>Mohammed Faraaz Ahmed </span>| all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends here -->
+    <script src="app.js"></script>
+  </body>
+</html>
